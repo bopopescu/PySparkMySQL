@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="304a6513-6b1c-4929-8b63-f7298e2135a4">
-        <schema name="test" object-types="constraint, column, view, table, procedure, index, dataset trigger, function" />
+        <schema name="test" object-types="constraint, column, table, index, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
@@ -43,7 +43,7 @@
     <connection id="304a6513-6b1c-4929-8b63-f7298e2135a4" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="304a6513-6b1c-4929-8b63-f7298e2135a4" dataset="test.sample" active-filter-id="">
+    <filter-actions connection-id="304a6513-6b1c-4929-8b63-f7298e2135a4" dataset="test.sample" active-filter-id="EMPTY_FILTER">
       <filter id="d7f76c02-41ee-4ba1-b658-28dc9ec1fb48" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
       </filter>
